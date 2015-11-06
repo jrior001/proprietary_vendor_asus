@@ -184,7 +184,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/soundfx/liblpepreprocessing.so:system/lib/soundfx/liblpepreprocessing.so \
     vendor/asus/mofd-common/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
     vendor/asus/mofd-common/proprietary/vendor/etc/route_criteria.conf:system/vendor/etc/route_criteria.conf \
-    vendor/asus/mofd-common/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/asus/mofd-common/proprietary/etc/atomisp/00gc2235.aiqb:system/etc/atomisp/00gc2235.aiqb \
     vendor/asus/mofd-common/proprietary/etc/atomisp/00imx134.aiqb:system/etc/atomisp/00imx134.aiqb \
     vendor/asus/mofd-common/proprietary/etc/atomisp/00imx135-0-0x2-0x1.aiqb:system/etc/atomisp/00imx135-0-0x2-0x1.aiqb \
