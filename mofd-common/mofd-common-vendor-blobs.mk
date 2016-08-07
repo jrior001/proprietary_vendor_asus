@@ -359,6 +359,51 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/libOMXVideoDecoderAVCSecure.so:system/lib/libOMXVideoDecoderAVCSecure.so \
     vendor/asus/mofd-common/proprietary/lib/libsepdrm_cc54.so:system/lib/libsepdrm_cc54.so \
     vendor/asus/mofd-common/proprietary/lib/libsephdcp2x.so:system/lib/libsephdcp2x.so \
+    vendor/asus/mofd-common/proprietary/bin/msvdx_bin:system/bin/msvdx_bin \
+    vendor/asus/mofd-common/proprietary/bin/surfaceflinger:system/bin/surfaceflinger \
+    vendor/asus/mofd-common/proprietary/bin/topaz_bin:system/bin/topaz_bin \
+    vendor/asus/mofd-common/proprietary/lib/hw/hwcomposer.moorefield.so:system/lib/hw/hwcomposer.moorefield.so \
+    vendor/asus/mofd-common/proprietary/lib/libOMXVideoDecoderH263.so:system/lib/libOMXVideoDecoderH263.so \
+    vendor/asus/mofd-common/proprietary/lib/libOMXVideoDecoderMPEG2.so:system/lib/libOMXVideoDecoderMPEG2.so \
+    vendor/asus/mofd-common/proprietary/lib/libOMXVideoDecoderMPEG4.so:system/lib/libOMXVideoDecoderMPEG4.so \
+    vendor/asus/mofd-common/proprietary/lib/libOMXVideoDecoderPAVC.so:system/lib/libOMXVideoDecoderPAVC.so \
+    vendor/asus/mofd-common/proprietary/lib/libOMXVideoDecoderVP8.so:system/lib/libOMXVideoDecoderVP8.so \
+    vendor/asus/mofd-common/proprietary/lib/libOMXVideoDecoderVP9HWR.so:system/lib/libOMXVideoDecoderVP9HWR.so \
+    vendor/asus/mofd-common/proprietary/lib/libOMXVideoDecoderWMV.so:system/lib/libOMXVideoDecoderWMV.so \
+    vendor/asus/mofd-common/proprietary/lib/libOMXVideoEncoderAVC.so:system/lib/libOMXVideoEncoderAVC.so \
+    vendor/asus/mofd-common/proprietary/lib/libOMXVideoEncoderH263.so:system/lib/libOMXVideoEncoderH263.so \
+    vendor/asus/mofd-common/proprietary/lib/libOMXVideoEncoderMPEG4.so:system/lib/libOMXVideoEncoderMPEG4.so \
+    vendor/asus/mofd-common/proprietary/lib/libOMXVideoEncoderVP8.so:system/lib/libOMXVideoEncoderVP8.so \
+    vendor/asus/mofd-common/proprietary/lib/libPVROCL.so:system/lib/libPVROCL.so \
+    vendor/asus/mofd-common/proprietary/lib/libdrm_bsp.so:system/lib/libdrm_bsp.so \
+    vendor/asus/mofd-common/proprietary/lib/libhwcwidi.so:system/lib/libhwcwidi.so \
+    vendor/asus/mofd-common/proprietary/lib/libintelmetadatabuffer.so:system/lib/libintelmetadatabuffer.so \
+    vendor/asus/mofd-common/proprietary/lib/libisv_omx_core.so:system/lib/libisv_omx_core.so \
+    vendor/asus/mofd-common/proprietary/lib/libisv_profile.so:system/lib/libisv_profile.so \
+    vendor/asus/mofd-common/proprietary/lib/libmrm_omx_adaptor.so:system/lib/libmrm_omx_adaptor.so \
+    vendor/asus/mofd-common/proprietary/lib/libmrm_arbitrator.so:system/lib/libmrm_arbitrator.so \
+    vendor/asus/mofd-common/proprietary/lib/libmultidisplay.so:system/lib/libmultidisplay.so \
+    vendor/asus/mofd-common/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
+    vendor/asus/mofd-common/proprietary/lib/libstagefright_soft_aacdec_mdp.so:system/lib/libstagefright_soft_aacdec_mdp.so \
+    vendor/asus/mofd-common/proprietary/lib/libstagefright_soft_aacenc_mdp.so:system/lib/libstagefright_soft_aacenc_mdp.so \
+    vendor/asus/mofd-common/proprietary/lib/libstagefright_soft_alacdec.so:system/lib/libstagefright_soft_alacdec.so \
+    vendor/asus/mofd-common/proprietary/lib/libstagefright_soft_amrdec_mdp.so:system/lib/libstagefright_soft_amrdec_mdp.so \
+    vendor/asus/mofd-common/proprietary/lib/libstagefright_soft_amrenc_mdp.so:system/lib/libstagefright_soft_amrenc_mdp.so \
+    vendor/asus/mofd-common/proprietary/lib/libstagefright_soft_mp3dec_mdp.so:system/lib/libstagefright_soft_mp3dec_mdp.so \
+    vendor/asus/mofd-common/proprietary/lib/libstagefright_soft_vorbisdec_mdp.so:system/lib/libstagefright_soft_vorbisdec_mdp.so \
+    vendor/asus/mofd-common/proprietary/lib/libstagefright_soft_wmadec_mdp.so:system/lib/libstagefright_soft_wmadec_mdp.so \
+    vendor/asus/mofd-common/proprietary/lib/libstagefright_usbd.so:system/lib/libstagefright_usbd.so \
+    vendor/asus/mofd-common/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
+    vendor/asus/mofd-common/proprietary/lib/libva-android.so:system/lib/libva-android.so \
+    vendor/asus/mofd-common/proprietary/lib/libva-tpi.so:system/lib/libva-tpi.so \
+    vendor/asus/mofd-common/proprietary/lib/libva.so:system/lib/libva.so \
+    vendor/asus/mofd-common/proprietary/lib/libva_videodecoder.so:system/lib/libva_videodecoder.so \
+    vendor/asus/mofd-common/proprietary/lib/libva_videoencoder.so:system/lib/libva_videoencoder.so \
+    vendor/asus/mofd-common/proprietary/lib/libvpp_setting.so:system/lib/libvpp_setting.so \
+    vendor/asus/mofd-common/proprietary/lib/libwrs_omxil_common.so:system/lib/libwrs_omxil_common.so \
+    vendor/asus/mofd-common/proprietary/lib/libwrs_omxil_core_pvwrapped.so:system/lib/libwrs_omxil_core_pvwrapped.so \
+    vendor/asus/mofd-common/proprietary/lib/libwsbm.so:system/lib/libwsbm.so \
+    vendor/asus/mofd-common/proprietary/lib/pvr_drv_video.so:system/lib/pvr_drv_video.so \
     vendor/asus/mofd-common/proprietary/bin/mmgr:system/bin/mmgr \
     vendor/asus/mofd-common/proprietary/bin/mmgr_am.sh:system/bin/mmgr_am.sh \
     vendor/asus/mofd-common/proprietary/bin/nvm_server:system/bin/nvm_server \
