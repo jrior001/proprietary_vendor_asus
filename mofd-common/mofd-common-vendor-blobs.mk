@@ -359,7 +359,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/libsepdrm_cc54.so:system/lib/libsepdrm_cc54.so \
     vendor/asus/mofd-common/proprietary/lib/libsephdcp2x.so:system/lib/libsephdcp2x.so \
     vendor/asus/mofd-common/proprietary/bin/msvdx_bin:system/bin/msvdx_bin \
-    vendor/asus/mofd-common/proprietary/bin/surfaceflinger:system/bin/surfaceflinger \
     vendor/asus/mofd-common/proprietary/bin/topaz_bin:system/bin/topaz_bin \
     vendor/asus/mofd-common/proprietary/lib/hw/hwcomposer.moorefield.so:system/lib/hw/hwcomposer.moorefield.so \
     vendor/asus/mofd-common/proprietary/lib/libOMXVideoDecoderH263.so:system/lib/libOMXVideoDecoderH263.so \
